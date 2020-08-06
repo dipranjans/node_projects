@@ -4,7 +4,7 @@ How to use this git repo, very simple.
 
 first step
 ======================
-git repo https://github.com/diptiranjans/node_projects.git
+git clone https://github.com/diptiranjans/node_projects.git
 
 second step
 ==================
