@@ -14,7 +14,7 @@ third step
 ========================
 npm start
 
-Before that first create an Generate test SMTP service account from ethereal.email
+Before that first create an Generate test SMTP service account from https://ethereal.email/
 use that username, password in config.json files.
 
 DONE DONE!!!!!
