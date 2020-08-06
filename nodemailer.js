@@ -1,5 +1,6 @@
 "use strict";
 const nodemailer = require("nodemailer");
+const { generated_username, generated_password } = require("./config.json");
 
 // async..await is not allowed in global scope, must use a wrapper
 async function main() {
@@ -13,8 +14,8 @@ async function main() {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "alexandre.koelpin54@ethereal.email", // generated ethereal user
-      pass: "yourpasswordhere" // generated ethereal password
+      user: generated_username, // generated ethereal user
+      pass: generated_password // generated ethereal password
     }
   });
 
